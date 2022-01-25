@@ -1,0 +1,1 @@
+{"version":3,"sources":["<input css 1>"],"names":[],"mappings":"AAEA,qBAIE,WACF,CAEA,EACE,qBACF","file":"main.43865e00.chunk.css","sourcesContent":["@charset 'utf-8';\n\nhtml,\nbody,\n#root,\n.App {\n  height: 100%;\n}\n\n* {\n  box-sizing: border-box;\n}"]}

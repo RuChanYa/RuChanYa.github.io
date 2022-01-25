@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/notFound/index.jsx"],"names":["Home","className"],"mappings":"kIAAA,uBASeA,UARf,WACE,OACE,qBAAKC,UAAU,MAAf","file":"static/js/5.f9e6993e.chunk.js","sourcesContent":["import React from \"react\";\nfunction Home() {\n  return (\n    <div className=\"App\">\n      404\n    </div>\n  );\n}\n\nexport default Home;"],"sourceRoot":""}
