@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title> 爱心代码 </title>
+    <title> To：孙胜男 </title>
     <meta charset="utf-8">
     <!-- <link rel="shortcut icon" href="../picture/爱心.png" type="image/x-icon"> -->
 <!--   github.com/he-weilai/love-code   -->
@@ -23,7 +23,7 @@
 
         .title {
             width: 20%;
-            height: 30%;
+            /* height: 30%; */
             /* 文字居中 */
             text-align: center;
             /* 字体大小 */
@@ -33,11 +33,11 @@
             /* 文字颜色 */
             color: rgba(247, 110, 206, 0.829);
             /* 左右居中 */
-            margin: auto;
+            /* margin: auto; */
             /* 定位 */
-            position: relative;
+            /* position: relative; */
             /* 上边距 */
-            top: 40%;
+            /* top: 20%; */
             /* 字体 */
             font-family: "幼圆";
         }
@@ -46,11 +46,11 @@
           width: 100px;
           height: 100px;
           border-radius: 999px;
-          position: fixed;
-          left:0;
-          right: 0;
+          position: absolute;
           top:0;
-          bottom:-50px;
+          right:0;
+          bottom:0;
+          left:0;
           margin:auto;
           /* margin-top: 30px; */
           background: url('https://img.fniaoyu.com/fniaoyu-2098e03d-d4d0-f3c6-2c4e-eb7483568482.jpg') 0 0 no-repeat;
@@ -59,10 +59,6 @@
         }
         .word{
           color: white;
-          position: fixed;
-          left:0px;
-          right: 0px;
-          top:80%;
           /* bottom:-10px; */
           margin:auto;
           width: 300px;
@@ -73,22 +69,40 @@
           text-align: center;
           /* text-decoration-line:line-through; */
                }
+               .box{
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 100vh;
+                /* padding: 20%; */
+                box-sizing: border-box;
+               }
+               .love-box{
+                position: relative;
+                width: 100%;
+                height: 100%;
+               }
     </style>
 
 </head>
 
 <body>
+  <div class="box">
+    <div class="title">To：孙胜男</div>
+    <div class="love-box">
+      <canvas id="pinkboard"></canvas>
 
-
-    <canvas id="pinkboard"></canvas>
-
-    <div class="title">孙胜男</div>
-    <div class="img"></div>
+      <div class="img"></div>
+    </div>
+   
     <div class="word">
       <p>一行写你</p>
       <p>一行写我</p>
       <p>剩下一行写我们</p>
     </div>
+  </div>
+ 
     <script>
 
         var settings = {
